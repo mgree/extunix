@@ -54,7 +54,7 @@ Library extunix
             memalign.c, endianba.c, pread_pwrite_ba.c, bigarray.c,
             splice.c, sysconf.c, common.c, common.h, sockopt.c, poll.c,
             sysinfo.c, mount.c, unshare.c, syslog.c
-  BuildDepends: unix, bigarray, bytes
+  BuildDepends: unix, bigarray, bytes, camlp4
 
 Executable test
   Path: test/
